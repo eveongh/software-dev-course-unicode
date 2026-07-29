@@ -90,17 +90,12 @@ let firstCodePoint = inputString1.charCodeAt(0);
 let thirdCodePoint = inputString1.charCodeAt(2);
 
 // Task 2
-let codes = [72,101,108,108];
-let wordFromCodePoints = 
-String.fromCharCode(codes[0])+
-String.fromCharCode(codes[1])+
-String.fromCharCode(codes[2])+
-String.fromCharCode(codes[3]);
+let wordFromCodePoints = String.fromCharCode (74,97,118,97,38,99,114,105,112,116);
 
 // Task 3
 let inputString2 = "Launch";
 let swappedString = String.fromCharCode(inputString2.charCodeAt(5))+ 
-"aunc" +
+inputString2.slice(1,5)+ // output "aunc"
 String.fromCharCode(inputString2.charCodeAt(0));
 
 // Log all results
